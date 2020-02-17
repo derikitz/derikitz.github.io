@@ -1,9 +1,7 @@
-# www.robotstxt.org/
-
-# Allow crawling of all content
 User-agent: *
-Disallow: /staging/*
-Disallow: /css/*
-Disallow: /img/*
-Disallow: /js/*
-Disallow: /docs/*
+Disallow:
+Disallow: staging/*
+Disallow: css/*
+Disallow: img/*
+Disallow: js/*
+Disallow: docs/*
